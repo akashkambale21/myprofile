@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration Form</title>
+  
+</head>
+<body>
+    <h2>Student Registration Form</h2><hr>
+    <form>
+        <table>
+            <body>
+                <tr>
+                    <td><label >full Name</label></td>
+                    <td><input type="text" placeholder="only capital letter" required></td>
+                </tr>
+                <tr>
+                    <td><label>Mobile Number</label></td>
+                    <td><input type="number" placeholder="Only Number " required></td>
+                </tr>
+                <tr>
+                    <td><label>EmailId</label></td>
+                    <td><input type="mail" placeholder="abc@gmail.com " required></td>
+                </tr>
+                <tr>
+                    <td><label>Password</label></td>
+                    <td><input type="passwoerd"></td>
+                </tr>
+                <tr>
+                    <td><label>Age</label></td>
+                    <td><input type="number"></td>
+                </tr>
+                    <tr>
+                        <td><label>Date</label></td>
+                        <td><input type="date"></td>
+                    </tr>
+                        <tr>
+                            <td><label>Select image</label></td>
+                            <td><input type="file"></td>
+
+                        </tr>
+                        <tr>
+                            <td><label>Select Resume </label></td>
+                            <td><input type="file"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Select mark List </label></td>
+                            <td><input type="file" multiple></td>
+                        </tr>
+                        <tr>
+                            <td><label>Selection Graduation </label></td>
+                            <td>
+                                <select>
+                                  <option>BE</option>
+                                  <option>MCA</option>
+                                  <option>BCA</option>
+                                  <option>B-TECH</option>
+                                </select>
+                              </td>
+                        </tr>
+                        <tr>
+                            <td><label>Gender </label></td>
+                            <td>
+                                <input type="radio" name="gender"> <label> Male </label>
+                                <input type="radio" name="gender"> <label> Female </label>
+                                <input type="radio" name="gender"> <label> Others </label>
+                              </td>
+                        </tr>
+                        <tr>
+                            <td> <label> Select Training </label> </td>
+                            <td>
+                              <input type="checkbox"> <label> Java </label>
+                              <input type="checkbox"> <label> Angular </label>
+                              <input type="checkbox"> <label> React </label>
+                              <input type="checkbox"> <label> Data Science </label>
+                              <input type="checkbox"> <label> Testing </label>
+                            </td>
+                          </tr>
+                          
+        <tr>
+            <td><label>State </label></td>
+            <td><input type="text" value="MH" readonly /></td>
+          </tr>
+  
+          <tr>
+            <td><label> Country</label></td>
+            <td><input type="text" value="India" disabled /></td>
+          </tr>
+  
+          <tr>
+            <td> <label> Address</label> </td>
+            <td> <textarea rows="7" cols="40"> </textarea> </td>
+          </tr>
+  
+          <tr>
+            <td> <button type="submit"> Register </button> </td>
+            <td> <button type="reset"> Clear </button> </td>
+          </tr>
+
+                    
+                
+            </body>
+        </table>
+    </form>
+</body>
+</html>
